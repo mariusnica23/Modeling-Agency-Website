@@ -8,7 +8,6 @@ include('functions.php');
 
 if(isset($_POST["id_bilet"]) && isset($_POST["pret"]) && isset($_POST["nr_bilete"]))
 {
-    // preia datele din formular
     $IdBilete = $_POST['id_bilet'];
     $Pret = $_POST['pret'];
     $NrBilete= $_POST['nr_bilete'];
